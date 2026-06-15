@@ -1,8 +1,6 @@
 CXX = clang++
 CXXFLAGS = -std=c++17 -O2 -Wall -Wextra -fPIC -I cpp/include
 PYTHON = python3
-PYBIND11_INCLUDE = $(shell $(PYTHON) -m pybind11 --includes)
-PYBIND11_SUFFIX = $(shell $(PYTHON) -c "import pybind11; print(pybind11.get_suffix())")
 
 BUILD_DIR = build
 SRC_DIR = cpp/src
@@ -13,16 +11,20 @@ SOURCES = $(SRC_DIR)/match_engine.cpp \
           $(SRC_DIR)/stat_calculator.cpp \
           $(SRC_DIR)/bindings.cpp
 
-TARGET = $(BUILD_DIR)/game_core$(PYBIND11_SUFFIX)
+.PHONY: all clean run cpp
 
-.PHONY: all clean run build
+all: cpp
 
-all: build
-
-build: $(TARGET)
-
-$(TARGET): $(SOURCES) | $(BUILD_DIR)
-	$(CXX) $(CXXFLAGS) $(PYBIND11_INCLUDE) -shared $(SOURCES) -o $@
+cpp: $(SOURCES) | $(BUILD_DIR)
+	@echo "Checking pybind11..."
+	@$(PYTHON) -c "import pybind11" 2>/dev/null || { echo "pybind11 не установлен. Установите: pip install pybind11"; exit 1; }
+	@echo "Checking clang++..."
+	@which $(CXX) >/dev/null 2>&1 || { echo "clang++ не найден. Установите: pkg install clang"; exit 1; }
+	@SUFFIX=$$($(PYTHON) -c "import pybind11; print(pybind11.get_suffix())" 2>/dev/null); \
+	INCLUDES=$$($(PYTHON) -m pybind11 --includes 2>/dev/null); \
+	echo "Сборка game_core$$SUFFIX..."; \
+	$(CXX) $(CXXFLAGS) $$INCLUDES -shared $(SOURCES) -o $(BUILD_DIR)/game_core$$SUFFIX && \
+	echo "C++ модуль собран успешно!"
 
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
@@ -30,8 +32,8 @@ $(BUILD_DIR):
 clean:
 	rm -rf $(BUILD_DIR)
 
-run: build
+run: cpp
 	$(PYTHON) main.py
 
-test: build
-	$(PYTHON) -m pytest cpp/tests/ -v
+run-python:
+	$(PYTHON) main.py
