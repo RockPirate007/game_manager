@@ -1,0 +1,48 @@
+{
+  "id": "real_betis",
+  "name": "Реал Бетис",
+  "name_en": "Real Betis Balompié",
+  "short_name": "BET",
+  "city": "Севилья",
+  "stadium": "Бенито Вильямарин",
+  "stadium_capacity": 60721,
+  "founded": 1907,
+  "colors": {"primary": "#00954C", "secondary": "#FFFFFF"},
+  "logo": "real_betis.png",
+  "league": "la_liga",
+  "budget": 60000000,
+  "reputation": 77,
+  "style": "attacking",
+  "tendency": "possession",
+  "owner": "Ángel Haro García",
+  "chairman": "Ángel Haro García",
+  "manager": "Manuel Pellegrini",
+  "board_expectations": {
+    "league": "top_six",
+    "cup": "semi_final",
+    "champions_league": "none",
+    "patience": 80
+  },
+  "history": {
+    "league_titles": 1,
+    "copa_del_rey": 3,
+    "champions_leagues": 0,
+    "europa_leagues": 0,
+    "super_cups": 0,
+    "uefa_super_cups": 0
+  },
+  "rivalry": ["sevilla"],
+  "facilities": {
+    "training_ground": 7,
+    "youth_academy": 7,
+    "stadium": 9,
+    "medical": 7
+  },
+  "tactics": {
+    "preferred_formation": "4-2-3-1",
+    "attacking_style": "possession",
+    "defensive_line": "medium",
+    "pressing": "medium",
+    "tempo": "medium"
+  }
+}

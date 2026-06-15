@@ -1,0 +1,48 @@
+{
+  "id": "valencia",
+  "name": "Валенсия",
+  "name_en": "Valencia CF",
+  "short_name": "VCF",
+  "city": "Валенсия",
+  "stadium": "Месталья",
+  "stadium_capacity": 55000,
+  "founded": 1919,
+  "colors": {"primary": "#FFFFFF", "secondary": "#EE3524"},
+  "logo": "valencia.png",
+  "league": "la_liga",
+  "budget": 50000000,
+  "reputation": 78,
+  "style": "balanced",
+  "tendency": "direct",
+  "owner": "Peter Lim",
+  "chairman": "Anil Murthy",
+  "manager": "Rubén Baraja",
+  "board_expectations": {
+    "league": "top_ten",
+    "cup": "quarter_final",
+    "champions_league": "none",
+    "patience": 70
+  },
+  "history": {
+    "league_titles": 6,
+    "copa_del_rey": 8,
+    "champions_leagues": 0,
+    "europa_leagues": 0,
+    "super_cups": 2,
+    "uefa_super_cups": 2
+  },
+  "rivalry": ["villarreal"],
+  "facilities": {
+    "training_ground": 7,
+    "youth_academy": 8,
+    "stadium": 8,
+    "medical": 7
+  },
+  "tactics": {
+    "preferred_formation": "4-4-2",
+    "attacking_style": "direct",
+    "defensive_line": "medium",
+    "pressing": "medium",
+    "tempo": "medium"
+  }
+}

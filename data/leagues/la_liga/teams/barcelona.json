@@ -1,0 +1,48 @@
+{
+  "id": "barcelona",
+  "name": "Барселона",
+  "name_en": "FC Barcelona",
+  "short_name": "FCB",
+  "city": "Барселона",
+  "stadium": "Камп Ноу",
+  "stadium_capacity": 99354,
+  "founded": 1899,
+  "colors": {"primary": "#A50044", "secondary": "#004D98"},
+  "logo": "barcelona.png",
+  "league": "la_liga",
+  "budget": 250000000,
+  "reputation": 97,
+  "style": "attacking",
+  "tendency": "possession",
+  "owner": "Socio (Club-owned)",
+  "chairman": "Joan Laporta",
+  "manager": "Hansi Flick",
+  "board_expectations": {
+    "league": "champion",
+    "cup": "win",
+    "champions_league": "semi_final",
+    "patience": 85
+  },
+  "history": {
+    "league_titles": 27,
+    "copa_del_rey": 31,
+    "champions_leagues": 5,
+    "europa_leagues": 0,
+    "super_cups": 14,
+    "uefa_super_cups": 5
+  },
+  "rivalry": ["real_madrid"],
+  "facilities": {
+    "training_ground": 10,
+    "youth_academy": 10,
+    "stadium": 10,
+    "medical": 9
+  },
+  "tactics": {
+    "preferred_formation": "4-3-3",
+    "attacking_style": "possession",
+    "defensive_line": "high",
+    "pressing": "high",
+    "tempo": "high"
+  }
+}

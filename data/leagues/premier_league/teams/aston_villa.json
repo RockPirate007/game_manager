@@ -1,0 +1,48 @@
+{
+  "id": "aston_villa",
+  "name": "Астон Вилла",
+  "name_en": "Aston Villa",
+  "short_name": "AVFC",
+  "city": "Бирмингем",
+  "stadium": "Вилла Парк",
+  "stadium_capacity": 42640,
+  "founded": 1874,
+  "colors": {"primary": "#670E36", "secondary": "#95BFE5"},
+  "logo": "aston_villa.png",
+  "league": "premier_league",
+  "budget": 120000000,
+  "reputation": 82,
+  "style": "attacking",
+  "tendency": "balanced",
+  "owner": "NSWE (Nassef Sawiris & Wes Edens)",
+  "chairman": "Nassef Sawiris",
+  "manager": "Unai Emery",
+  "board_expectations": {
+    "league": "top_six",
+    "cup": "quarter_final",
+    "champions_league": "quarter_final",
+    "patience": 85
+  },
+  "history": {
+    "league_titles": 7,
+    "fa_cups": 7,
+    "league_cups": 5,
+    "champions_leagues": 1,
+    "europa_leagues": 1,
+    "community_shields": 1
+  },
+  "rivalry": ["birmingham_city"],
+  "facilities": {
+    "training_ground": 8,
+    "youth_academy": 8,
+    "stadium": 8,
+    "medical": 8
+  },
+  "tactics": {
+    "preferred_formation": "4-2-3-1",
+    "attacking_style": "balanced",
+    "defensive_line": "medium",
+    "pressing": "high",
+    "tempo": "high"
+  }
+}

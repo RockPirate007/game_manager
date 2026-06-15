@@ -1,0 +1,309 @@
+{
+  "match_reports": {
+    "win": [
+      {
+        "id": "win_dominant",
+        "template": "{team} одержал убедительную победу над {opponent} со счётом {score}! {scorer} отметился дублем, а команда показала великолепную игру.",
+        "mood": "ecstatic"
+      },
+      {
+        "id": "win_narrow",
+        "template": "{team} одержал волевую победу над {opponent} со счётом {score}. {scorer} забил решающий гол на {minute}-й минуте.",
+        "mood": "happy"
+      },
+      {
+        "id": "win_comeback",
+        "template": "{team} совершил впечатляющий камбэк против {opponent}, проигрывая {losing_score}, но победил {score}! {scorer} стал героем матча.",
+        "mood": "ecstatic"
+      },
+      {
+        "id": "win_clean_sheet",
+        "template": "{team} одержал сухую победу над {opponent} {score}. Оборона действовала безупречно, а {scorer} забил гол.",
+        "mood": "happy"
+      }
+    ],
+    "draw": [
+      {
+        "id": "draw_high_scoring",
+        "template": "{team} сыграл вничью с {opponent} {score} в матче с обилием моментов. {scorer} забил за нашу команду.",
+        "mood": "neutral"
+      },
+      {
+        "id": "draw_low_scoring",
+        "template": "Ничья {score} между {team} и {opponent}. Обе команды действовали осторожно.",
+        "mood": "neutral"
+      },
+      {
+        "id": "draw_late_equalizer",
+        "template": "{team} упустил победу против {opponent}. Соперник сравнял счёт на {minute}-й минуте. Итоговый счёт {score}.",
+        "mood": "disappointed"
+      }
+    ],
+    "loss": [
+      {
+        "id": "loss_heavy",
+        "template": "{team} потерпел тяжёлое поражение от {opponent} со счётом {score}. Команда не смогла противостоять сопернику.",
+        "mood": "furious"
+      },
+      {
+        "id": "loss_narrow",
+        "template": "{team} уступил {opponent} со счётом {score}. Гол на {minute}-й минуте оказался решающим.",
+        "mood": "disappointed"
+      },
+      {
+        "id": "loss_unlucky",
+        "template": "{team} проиграл {opponent} {score} несмотря на доминирование. Незаслуженный результат.",
+        "mood": "frustrated"
+      }
+    ]
+  },
+  "transfer_news": {
+    "rumor": [
+      {
+        "id": "transfer_rumor_basic",
+        "template": "По информации {source}, {player} может перейти из {from_team} в {to_team} за {fee} млн евро.",
+        "source_types": ["Sky Sports", "BBC Sport", "Marca", "L'Equipe", "Gazzetta dello Sport"]
+      },
+      {
+        "id": "transfer_rumor_advanced",
+        "template": "{player} всё ближе к переходу в {to_team}. Клубы обсуждают детали трансфера. Сумма сделки может составить {fee} млн евро.",
+        "source_types": ["Transfermarkt", "Fabrizio Romano", "journalists"]
+      },
+      {
+        "id": "transfer_rumor_denied",
+        "template": "Представитель {player} опроверг слухи о переходе в {to_team}. Игрок остаётся в {from_team}.",
+        "source_types": ["agent", "club_official"]
+      }
+    ],
+    "completed": [
+      {
+        "id": "transfer_completed",
+        "template": "Официально: {player} перешёл из {from_team} в {to_team} за {fee} млн евро! Контракт подписан на {years} лет.",
+        "mood": "excited"
+      },
+      {
+        "id": "transfer_loan",
+        "template": "{player} отправляется в аренду из {from_team} в {to_team} до конца сезона.",
+        "mood": "neutral"
+      },
+      {
+        "id": "transfer_free",
+        "template": "{player} подписал контракт с {to_team} на правах свободного агента.",
+        "mood": "happy"
+      }
+    ]
+  },
+  "injury_reports": {
+    "minor": [
+      {
+        "id": "injury_bruise",
+        "template": "{player} получил ушиб во время тренировки. Пропустит {days} дней.",
+        "severity": "low",
+        "days_out": [1, 3]
+      },
+      {
+        "id": "injury_strain",
+        "template": "У {player} растяжение мышцы. Вернётся через {weeks} недель.",
+        "severity": "medium",
+        "days_out": [7, 21]
+      }
+    ],
+    "moderate": [
+      {
+        "id": "injury_ligament",
+        "template": "{player} повредил связки. Выбыл на {weeks} недель.",
+        "severity": "high",
+        "days_out": [21, 60]
+      },
+      {
+        "id": "injury_muscle",
+        "template": "Травма мышцы у {player}. Вернётся через {weeks} недель.",
+        "severity": "high",
+        "days_out": [28, 56]
+      }
+    ],
+    "severe": [
+      {
+        "id": "injury_acl",
+        "template": "{player} разорвал переднюю крестообразную связку. Выбыл на {months} месяцев.",
+        "severity": "critical",
+        "days_out": [180, 365]
+      },
+      {
+        "id": "injury_fracture",
+        "template": "Перелом кости у {player}. Вернётся через {months} месяцев.",
+        "severity": "critical",
+        "days_out": [90, 180]
+      }
+    ]
+  },
+  "press_conference": {
+    "questions": {
+      "pre_match": [
+        {
+          "id": "pre_match_confidence",
+          "question": "Как вы оцениваете шансы вашей команды в предстоящем матче?",
+          "answers": [
+            {"text": "Мы готовы и настроены победить.", "morale_effect": 5, "confidence_effect": 3},
+            {"text": "Будет сложный матч, но мы постараемся.", "morale_effect": 0, "confidence_effect": 0},
+            {"text": "Соперник силён, но мы готовы к вызову.", "morale_effect": 2, "confidence_effect": 1}
+          ]
+        },
+        {
+          "id": "pre_match_injuries",
+          "question": "Как повлияют травмы на состав команды?",
+          "answers": [
+            {"text": "У нас достаточно глубокий состав.", "morale_effect": 3, "confidence_effect": 2},
+            {"text": "Травмы — это часть футбола, мы справимся.", "morale_effect": 2, "confidence_effect": 1},
+            {"text": "Мы надеемся на быстрое возвращение травмированных.", "morale_effect": 0, "confidence_effect": 0}
+          ]
+        }
+      ],
+      "post_match": [
+        {
+          "id": "post_match_win",
+          "question": "Как вы оцениваете выступление команды?",
+          "answers": [
+            {"text": "Ребята показали характер и волю к победе.", "morale_effect": 5, "confidence_effect": 3},
+            {"text": "Мы играли хорошо, но есть над чем работать.", "morale_effect": 3, "confidence_effect": 1},
+            {"text": "Важная победа для нас.", "morale_effect": 4, "confidence_effect": 2}
+          ]
+        },
+        {
+          "id": "post_match_loss",
+          "question": "Почему команда проиграла?",
+          "answers": [
+            {"text": "Мы не реализовали свои моменты.", "morale_effect": -2, "confidence_effect": -1},
+            {"text": "Соперник сыграл лучше нас сегодня.", "morale_effect": -3, "confidence_effect": -2},
+            {"text": "Это урок для нас, мы станем сильнее.", "morale_effect": 1, "confidence_effect": 0}
+          ]
+        }
+      ],
+      "transfer": [
+        {
+          "id": "transfer_question",
+          "question": "Правда ли, что {player} покинет клуб?",
+          "answers": [
+            {"text": "Я не комментирую слухи из прессы.", "morale_effect": 0, "confidence_effect": 0},
+            {"text": "Мы хотим удержать лучших игроков.", "morale_effect": 2, "confidence_effect": 1},
+            {"text": "Клуб примет решение в интересах команды.", "morale_effect": -1, "confidence_effect": 0}
+          ]
+        }
+      ]
+    }
+  },
+  "awards": {
+    "nominations": [
+      {
+        "id": "player_of_month",
+        "name": "Игрок месяца",
+        "description": "Лучший игрок месяца по версии болельщиков",
+        "period": "monthly",
+        "nominees_count": 3
+      },
+      {
+        "id": "goal_of_month",
+        "name": "Гол месяца",
+        "description": "Лучший гол месяца",
+        "period": "monthly",
+        "nominees_count": 5
+      },
+      {
+        "id": "manager_of_month",
+        "name": "Тренер месяца",
+        "description": "Лучший тренер месяца",
+        "period": "monthly",
+        "nominees_count": 3
+      },
+      {
+        "id": "player_of_season",
+        "name": "Игрок сезона",
+        "description": "Лучший игрок сезона",
+        "period": "seasonal",
+        "nominees_count": 5
+      },
+      {
+        "id": "young_player_of_season",
+        "name": "Лучший молодой игрок сезона",
+        "description": "Лучший игрок до 21 года",
+        "period": "seasonal",
+        "nominees_count": 5
+      },
+      {
+        "id": "golden_boot",
+        "name": "Золотая бутса",
+        "description": "Лучший бомбардир сезона",
+        "period": "seasonal",
+        "nominees_count": 5
+      },
+      {
+        "id": "golden_glove",
+        "name": "Золотая перчатка",
+        "description": "Лучший вратарь сезона",
+        "period": "seasonal",
+        "nominees_count": 3
+      }
+    ]
+  },
+  "social_media": {
+    "fan_reactions": {
+      "win": [
+        "Великая победа! {team} — чемпион!",
+        "{player} — гений! Какой гол!",
+        "Команда играла отлично! Вперёд к титулу!",
+        "Тренер — лучший! Тактический гений!"
+      ],
+      "loss": [
+        "Позорный результат! {team} разочаровал!",
+        "Тренер должен уйти! Это недопустимо!",
+        "Команда безвольная! Где характер?",
+        "Совершенно неудовлетворительная игра!"
+      ],
+      "draw": [
+        "Очков недостаточно. Нужно побеждать!",
+        "Ничья — как поражение. {team} должен играть лучше!",
+        "Неплохая игра, но мало голы.",
+        "Нужно больше атаковать! Оборона слабая!"
+      ]
+    },
+    "hashtags": {
+      "team": "#TeamName",
+      "player": "#PlayerName",
+      "match": "#TeamVsOpponent",
+      "transfer": "#TransferNews"
+    }
+  },
+  "dialogue_options": {
+    "player_talks": {
+      "motivational": [
+        "Ребята, мы можем это сделать!",
+        "Верю в каждого из вас!",
+        "Покажем, что мы команда!",
+        "Сегодня наш день!"
+      ],
+      "tactical": [
+        "Сосредоточьтесь на обороне!",
+        "Нужно больше контролировать мяч!",
+        "Давайте играть быстрее!",
+        "Используем фланги!"
+      ],
+      "calming": [
+        "Спокойно, мы ведём в счёте!",
+        "Не нервничайте, у нас всё под контролем!",
+        "Играйте спокойно и уверенно!"
+      ]
+    },
+    "board_meetings": {
+      "budget_request": [
+        "Нам нужно увеличить бюджет на трансферы.",
+        "Инвестиции в состав необходимы.",
+        "Мы можем конкурировать только с дополнительными средствами."
+      ],
+      "expectations": [
+        "Мы постараемся показать максимальный результат.",
+        "Цель — попадание в еврокубки.",
+        "Мы боремся за чемпионство."
+      ]
+    }
+  }
+}

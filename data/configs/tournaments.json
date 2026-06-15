@@ -1,0 +1,233 @@
+{
+  "tournaments": [
+    {
+      "id": "champions_league",
+      "name": "Лига Чемпионов",
+      "name_en": "UEFA Champions League",
+      "type": "continental",
+      "level": 1,
+      "format": {
+        "group_stage": {
+          "teams": 32,
+          "groups": 8,
+          "teams_per_group": 4,
+          "matches_per_team": 6,
+          "qualification": "top_two"
+        },
+        "knockout_stage": {
+          "round_of_16": true,
+          "quarter_finals": true,
+          "semi_finals": true,
+          "final": true,
+          "two_legs": true,
+          "away_goals_rule": false,
+          "extra_time": true,
+          "penalty_shootout": true
+        }
+      },
+      "prize_money": {
+        "group_stage": 15600000,
+        "round_of_16": 9600000,
+        "quarter_finals": 10600000,
+        "semi_finals": 12500000,
+        "runner_up": 15500000,
+        "winner": 25000000
+      },
+      "qualification_spots": {
+        "league_1": 4,
+        "league_2": 4,
+        "league_3": 2,
+        "league_4": 1,
+        "league_5": 1
+      },
+      "schedule": {
+        "draw": "august",
+        "group_stage": "september_december",
+        "knockout_stage": "february_may",
+        "final": "june"
+      }
+    },
+    {
+      "id": "europa_league",
+      "name": "Лига Европы",
+      "name_en": "UEFA Europa League",
+      "type": "continental",
+      "level": 2,
+      "format": {
+        "group_stage": {
+          "teams": 32,
+          "groups": 8,
+          "teams_per_group": 4,
+          "matches_per_team": 6,
+          "qualification": "group_winner_and_second"
+        },
+        "knockout_stage": {
+          "round_of_32": true,
+          "round_of_16": true,
+          "quarter_finals": true,
+          "semi_finals": true,
+          "final": true,
+          "two_legs": true,
+          "away_goals_rule": false,
+          "extra_time": true,
+          "penalty_shootout": true
+        }
+      },
+      "prize_money": {
+        "group_stage": 3630000,
+        "knockout_round": 4950000,
+        "quarter_finals": 5500000,
+        "semi_finals": 6500000,
+        "runner_up": 7500000,
+        "winner": 10000000
+      },
+      "schedule": {
+        "draw": "august",
+        "group_stage": "september_december",
+        "knockout_stage": "february_may",
+        "final": "may"
+      }
+    },
+    {
+      "id": "conference_league",
+      "name": "Лига Конференций",
+      "name_en": "UEFA Europa Conference League",
+      "type": "continental",
+      "level": 3,
+      "format": {
+        "group_stage": {
+          "teams": 32,
+          "groups": 8,
+          "teams_per_group": 4,
+          "matches_per_team": 6,
+          "qualification": "group_winner_and_second"
+        },
+        "knockout_stage": {
+          "round_of_16": true,
+          "quarter_finals": true,
+          "semi_finals": true,
+          "final": true,
+          "two_legs": true,
+          "away_goals_rule": false,
+          "extra_time": true,
+          "penalty_shootout": true
+        }
+      },
+      "prize_money": {
+        "group_stage": 2350000,
+        "knockout_round": 3162500,
+        "quarter_finals": 3500000,
+        "semi_finals": 4000000,
+        "runner_up": 5000000,
+        "winner": 7000000
+      },
+      "schedule": {
+        "draw": "august",
+        "group_stage": "september_december",
+        "knockout_stage": "february_may",
+        "final": "may"
+      }
+    },
+    {
+      "id": "fa_cup",
+      "name": "Кубок Англии",
+      "name_en": "FA Cup",
+      "type": "domestic_cup",
+      "country": "england",
+      "format": {
+        "qualifying_rounds": true,
+        "main_draw": {
+          "first_round": 64,
+          "third_round": 32,
+          "fourth_round": 16,
+          "fifth_round": 8,
+          "quarter_finals": 4,
+          "semi_finals": 2,
+          "final": 1
+        },
+        "replays": false,
+        "extra_time": true,
+        "penalty_shootout": true
+      },
+      "prize_money": {
+        "first_round": 41000,
+        "second_round": 54000,
+        "third_round": 115000,
+        "fourth_round": 120000,
+        "fifth_round": 225000,
+        "quarter_finals": 450000,
+        "semi_finals": 1000000,
+        "runner_up": 1000000,
+        "winner": 2000000
+      },
+      "qualification": {
+        "premier_league": "all_teams",
+        "championship": "all_teams",
+        "league_one": "all_teams",
+        "league_two": "all_teams",
+        "non_league": "qualifying_rounds"
+      }
+    },
+    {
+      "id": "copa_del_rey",
+      "name": "Кубок Испании",
+      "name_en": "Copa del Rey",
+      "type": "domestic_cup",
+      "country": "spain",
+      "format": {
+        "qualifying_rounds": true,
+        "main_draw": {
+          "first_round": 110,
+          "second_round": 55,
+          "third_round": 28,
+          "round_of_32": 16,
+          "round_of_16": 8,
+          "quarter_finals": 4,
+          "semi_finals": 2,
+          "final": 1
+        },
+        "single_match": true,
+        "extra_time": true,
+        "penalty_shootout": true
+      },
+      "prize_money": {
+        "first_round": 10000,
+        "second_round": 15000,
+        "third_round": 25000,
+        "round_of_32": 50000,
+        "round_of_16": 100000,
+        "quarter_finals": 200000,
+        "semi_finals": 400000,
+        "runner_up": 600000,
+        "winner": 1200000
+      },
+      "qualification": {
+        "la_liga": "all_teams",
+        "segunda": "all_teams",
+        "third_division": "qualifying_rounds"
+      }
+    },
+    {
+      "id": "community_shield",
+      "name": "Суперкубок",
+      "name_en": "Community Shield",
+      "type": "super_cup",
+      "format": {
+        "single_match": true,
+        "venue": "neutral",
+        "extra_time": false,
+        "penalty_shootout": true
+      },
+      "participants": ["league_champion", "cup_winner"]
+    }
+  ],
+  "cup_rules": {
+    "home_advantage": "random_draw",
+    "substitutions": 5,
+    "var_enabled": true,
+    "yellow_card_accumulation": {
+      "threshold": 2,
+      "suspension_matches": 1
+    }
+  }
+}

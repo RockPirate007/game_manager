@@ -1,0 +1,48 @@
+{
+  "id": "girona",
+  "name": "Жирона",
+  "name_en": "Girona FC",
+  "short_name": "GIR",
+  "city": "Жирона",
+  "stadium": "Монтиливи",
+  "stadium_capacity": 14500,
+  "founded": 1930,
+  "colors": {"primary": "#CD2534", "secondary": "#003DA5"},
+  "logo": "girona.png",
+  "league": "la_liga",
+  "budget": 40000000,
+  "reputation": 75,
+  "style": "attacking",
+  "tendency": "possession",
+  "owner": "City Football Group",
+  "chairman": "Delfí Geli",
+  "manager": "Michel",
+  "board_expectations": {
+    "league": "top_ten",
+    "cup": "quarter_final",
+    "champions_league": "group_stage",
+    "patience": 80
+  },
+  "history": {
+    "league_titles": 0,
+    "copa_del_rey": 0,
+    "champions_leagues": 0,
+    "europa_leagues": 0,
+    "super_cups": 0,
+    "uefa_super_cups": 0
+  },
+  "rivalry": [],
+  "facilities": {
+    "training_ground": 7,
+    "youth_academy": 7,
+    "stadium": 7,
+    "medical": 7
+  },
+  "tactics": {
+    "preferred_formation": "4-3-3",
+    "attacking_style": "possession",
+    "defensive_line": "high",
+    "pressing": "high",
+    "tempo": "high"
+  }
+}

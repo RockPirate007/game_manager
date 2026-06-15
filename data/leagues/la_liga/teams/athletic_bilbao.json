@@ -1,0 +1,52 @@
+{
+  "id": "athletic_bilbao",
+  "name": "Атлетик Бильяо",
+  "name_en": "Athletic Club",
+  "short_name": "ATH",
+  "city": "Бильяо",
+  "stadium": "Сан-Мамес",
+  "stadium_capacity": 53289,
+  "founded": 1898,
+  "colors": {"primary": "#EE2523", "secondary": "#FFFFFF"},
+  "logo": "athletic_bilbao.png",
+  "league": "la_liga",
+  "budget": 50000000,
+  "reputation": 78,
+  "style": "balanced",
+  "tendency": "direct",
+  "owner": "Socio (Club-owned)",
+  "chairman": "Jon Uriarte",
+  "manager": "Ernesto Valverde",
+  "board_expectations": {
+    "league": "top_six",
+    "cup": "semi_final",
+    "champions_league": "none",
+    "patience": 85
+  },
+  "history": {
+    "league_titles": 8,
+    "copa_del_rey": 23,
+    "champions_leagues": 0,
+    "europa_leagues": 0,
+    "super_cups": 3,
+    "uefa_super_cups": 0
+  },
+  "rivalry": ["real_sociedad"],
+  "facilities": {
+    "training_ground": 8,
+    "youth_academy": 9,
+    "stadium": 9,
+    "medical": 8
+  },
+  "tactics": {
+    "preferred_formation": "4-2-3-1",
+    "attacking_style": "balanced",
+    "defensive_line": "medium",
+    "pressing": "high",
+    "tempo": "high"
+  },
+  "special_rules": {
+    "only_basque_players": true,
+    "description": "Клуб традиционно招募 только баскских игроков"
+  }
+}

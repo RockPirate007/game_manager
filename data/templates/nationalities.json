@@ -1,0 +1,184 @@
+{
+  "nationalities": [
+    {
+      "id": "england",
+      "name": "Англия",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "weight_epl": 40,
+      "weight_laliga": 5,
+      "first_names": ["Harry", "Jack", "James", "Thomas", "Oliver", "George", "William", "Arthur", "Freddie", "Bukayo", "Phil", "Jude", "Mason", "Cole", "Declan", "Marcus", "Jordan", "Kyle", "Luke", "John"],
+      "last_names": ["Kane", "Smith", "Jones", "Williams", "Brown", "Wilson", "Taylor", "Saka", "Foden", "Bellingham", "Palmer", "Rice", "Shaw", "Stones", "Walker", "Trippier", "Gordon", "Rashford", "Mount", "Ward-Prowse"]
+    },
+    {
+      "id": "spain",
+      "name": "Испания",
+      "flag": "🇪🇸",
+      "weight_epl": 5,
+      "weight_laliga": 45,
+      "first_names": ["Pablo", "Álvaro", "Pedri", "Gavi", "Dani", "Rodrigo", "Ferrán", "Marcos", "Alejandro", "Mikel", "Iñaki", "Nico", "Sergio", "Lamine", "Goncalo"],
+      "last_names": ["Morata", "Oyarzabal", "Pedri", "García", "Asensio", "Williams", "Torres", "Llorente", "Grimaldo", "Merino", "Simón", "Laporte", "Busquets", "Yamal", "Guedes"]
+    },
+    {
+      "id": "brazil",
+      "name": "Бразилия",
+      "flag": "🇧🇷",
+      "weight_epl": 15,
+      "weight_laliga": 15,
+      "first_names": ["Vinícius", "Rodrygo", "Gabriel", "Raphinha", "Lucas", "Thiago", "Casemiro", "Fabinho", "Alisson", "Ederson", "Neymar", "Philippe", "Richarlison", "Paquetá", "Bruno"],
+      "last_names": ["Júnior", "Gomes", "Jesus", "Martinelli", "Moura", "Becker", "Fernandes", "Lima", "Becker", "Moraes", "da Silva", "Coutinho", "de Andrade", "Guimarães", "Guimarães"]
+    },
+    {
+      "id": "argentina",
+      "name": "Аргентина",
+      "flag": "🇦🇷",
+      "weight_epl": 10,
+      "weight_laliga": 10,
+      "first_names": ["Lionel", "Julian", "Enzo", "Alexis", "Emiliano", "Nicolás", "Lautaro", "Paulo", "Thiago", "Julián"],
+      "last_names": ["Messi", "Álvarez", "Fernández", "Mac Allister", "Martínez", "Otamendi", "Martínez", "Dybala", "Romero", "Álvarez"]
+    },
+    {
+      "id": "france",
+      "name": "Франция",
+      "flag": "🇫🇷",
+      "weight_epl": 15,
+      "weight_laliga": 10,
+      "first_names": ["Kylian", "Antoine", "Ousmane", "Aurélien", "Adrien", "Théo", "Raphaël", "Jules", "Dayot", "Lucas"],
+      "last_names": ["Mbappé", "Griezmann", "Dembélé", "Tchouaméni", "Rabiot", "Hernández", "Varane", "Koundé", "Upamecano", "Hernández"]
+    },
+    {
+      "id": "germany",
+      "name": "Германия",
+      "flag": "🇩🇪",
+      "weight_epl": 8,
+      "weight_laliga": 5,
+      "first_names": ["Kai", "Florian", "Jamal", "Niclas", "İlkay", "Joshua", "Antonio", "Thomas", "Leroy", "Nico"],
+      "last_names": ["Havertz", "Wirtz", "Musiala", "Füllkrug", "Gündoğan", "Kimmich", "Rüdiger", "Müller", "Sané", "Schlotterbeck"]
+    },
+    {
+      "id": "italy",
+      "name": "Италия",
+      "flag": "🇮🇹",
+      "weight_epl": 8,
+      "weight_laliga": 5,
+      "first_names": ["Federico", "Giacomo", "Marco", "Sandro", "Gianluigi", "Alessandro", "Giovanni", "Davide", "Nicolo", "Lorenzo"],
+      "last_names": ["Chiesa", "Bonaventura", "Verratti", "Tonali", "Donnarumma", "Bastoni", "Di Lorenzo", "Frattesi", "Barella", "Pellegrini"]
+    },
+    {
+      "id": "netherlands",
+      "name": "Нидерланды",
+      "flag": "🇳🇱",
+      "weight_epl": 8,
+      "weight_laliga": 5,
+      "first_names": ["Virgil", "Frenkie", "Cody", "Memphis", "Xavi", "Matthijs", "Steven", "Daley", "Denzel", "Jurriën"],
+      "last_names": ["van Dijk", "de Jong", "Gakpo", "Depay", "Simons", "de Ligt", "Bergwijn", "Blind", "Dumfries", "Timber"]
+    },
+    {
+      "id": "portugal",
+      "name": "Португалия",
+      "flag": "🇵🇹",
+      "weight_epl": 8,
+      "weight_laliga": 8,
+      "first_names": ["Bruno", "Bernardo", "Diogo", "Rúben", "Vitinha", "João", "Rafael", "Gonçalo", "Nuno", "Gonçalo"],
+      "last_names": ["Fernandes", "Silva", "Jota", "Dias", "Guimarães", "Cancelo", "Leão", "Ramos", "Mendes", "Inácio"]
+    },
+    {
+      "id": "uruguay",
+      "name": "Уругвай",
+      "flag": "🇺🇾",
+      "weight_epl": 5,
+      "weight_laliga": 5,
+      "first_names": ["Federico", "Ronald", "Darwin", "Rodrigo", "Matías", "Nahitan", "Lucas", "José", "Maximiliano"],
+      "last_names": ["Valverde", "Araújo", "Núñez", "Bentancur", "Viña", "Nández", "Torreira", "Giménez", "Gómez"]
+    },
+    {
+      "id": "nigeria",
+      "name": "Нигерия",
+      "flag": "🇳🇬",
+      "weight_epl": 5,
+      "weight_laliga": 2,
+      "first_names": ["Victor", "Ademola", "Samuel", "Wilfred", "Alex", "Calvert", "Kelechi", "Moses", "Ola"],
+      "last_names": ["Osimhen", "Lookman", "Chukwueze", "Ndidi", "Iwobi", "Lewin", "Iheanacho", "Simon", "Aina"]
+    },
+    {
+      "id": "senegal",
+      "name": "Сенегал",
+      "flag": "🇸🇳",
+      "weight_epl": 5,
+      "weight_laliga": 3,
+      "first_names": ["Sadio", "Ismaïla", "Kalidou", "Idrissa", "Édouard", "Habib", "Abdou", "Cheikhou"],
+      "last_names": ["Mané", "Sarr", "Koulibaly", "Gueye", "Mendy", "Diallo", "Kouyaté", "Kouyaté"]
+    },
+    {
+      "id": "belgium",
+      "name": "Бельгия",
+      "flag": "🇧🇪",
+      "weight_epl": 5,
+      "weight_laliga": 3,
+      "first_names": ["Kevin", "Romelu", "Eden", "Thibaut", "Youri", "Charles", "Dries", "Leandro"],
+      "last_names": ["De Bruyne", "Lukaku", "Hazard", "Courtois", "Tielemans", "De Ketelaere", "Mertens", "Trossard"]
+    },
+    {
+      "id": "croatia",
+      "name": "Хорватия",
+      "flag": "🇭🇷",
+      "weight_epl": 4,
+      "weight_laliga": 4,
+      "first_names": ["Luka", "Ivan", "Mateo", "Joško", "Nikola", "Ante", "Marcelo", "Dejan"],
+      "last_names": ["Modrić", "Perišić", "Kovačić", "Gvardiol", "Vlašić", "Kramarić", "Brozović", "Lovren"]
+    },
+    {
+      "id": "colombia",
+      "name": "Колумбия",
+      "flag": "🇨🇴",
+      "weight_epl": 4,
+      "weight_laliga": 4,
+      "first_names": ["Luis", "Juan", "James", "Yerry", "Dávinson", "Johan", "Rafael", "Sebastián"],
+      "last_names": ["Díaz", "Cuadrado", "Rodríguez", "Mina", "Sánchez", "Mojica", "Borré", "Muñoz"]
+    },
+    {
+      "id": "japan",
+      "name": "Япония",
+      "flag": "🇯🇵",
+      "weight_epl": 3,
+      "weight_laliga": 3,
+      "first_names": ["Takefusa", "Kaoru", "Takumi", "Wataru", "Takehiro", "Ao", "Junya", "Yuto"],
+      "last_names": ["Kubō", "Mitoma", "Minamino", "Endō", "Tomiyasu", "Tanaka", "Itō", "Nagatomo"]
+    },
+    {
+      "id": "south_korea",
+      "name": "Южная Корея",
+      "flag": "🇰🇷",
+      "weight_epl": 3,
+      "weight_laliga": 2,
+      "first_names": ["Son", "Heung-min", "Hwang", "Lee", "Kim", "Cho", "Jung", "Hong"],
+      "last_names": ["Heung-min", "Son", "Hee-chan", "Kang-in", "Min-jae", "Gue-sung", "Woo-young", "Chul"]
+    },
+    {
+      "id": "usa",
+      "name": "США",
+      "flag": "🇺🇸",
+      "weight_epl": 4,
+      "weight_laliga": 2,
+      "first_names": ["Christian", "Weston", "Giovanni", "Tyler", "Brendan", "Tim", "Sergiño", "Yunus"],
+      "last_names": ["Pulisic", "McKennie", "Reyna", "Adams", "Aaronson", "Weah", "Dest", "Musah"]
+    },
+    {
+      "id": "poland",
+      "name": "Польша",
+      "flag": "🇵🇱",
+      "weight_epl": 3,
+      "weight_laliga": 4,
+      "first_names": ["Robert", "Jakub", "Piotr", "Arkadiusz", "Kamil", "Karol", "Kacper", "Sebastian"],
+      "last_names": ["Lewandowski", "Kiwior", "Zieliński", "Milik", "Glik", "Świderski", "Kozłowski", "Szymański"]
+    },
+    {
+      "id": "denmark",
+      "name": "Дания",
+      "flag": "🇩🇰",
+      "weight_epl": 3,
+      "weight_laliga": 2,
+      "first_names": ["Christian", "Andreas", "Kasper", "Pierre-Emile", "Rasmus", "Joachim", "Mikkel", "Simon"],
+      "last_names": ["Eriksen", "Christensen", "Schmeichel", "Højbjerg", "Højlund", "Andersen", "Damsgaard", "Kjær"]
+    }
+  ]
+}

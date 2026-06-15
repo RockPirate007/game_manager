@@ -1,0 +1,48 @@
+{
+  "id": "manchester_city",
+  "name": "Манчестер Сити",
+  "name_en": "Manchester City",
+  "short_name": "MCFC",
+  "city": "Манчестер",
+  "stadium": "Этихад",
+  "stadium_capacity": 53400,
+  "founded": 1880,
+  "colors": {"primary": "#6CABDD", "secondary": "#1C2C5B"},
+  "logo": "manchester_city.png",
+  "league": "premier_league",
+  "budget": 250000000,
+  "reputation": 98,
+  "style": "attacking",
+  "tendency": "possession",
+  "owner": "City Football Group",
+  "chairman": "Khaldoon Al Mubarak",
+  "manager": "Pep Guardiola",
+  "board_expectations": {
+    "league": "champion",
+    "cup": "win",
+    "champions_league": "semi_final",
+    "patience": 95
+  },
+  "history": {
+    "league_titles": 10,
+    "fa_cups": 7,
+    "league_cups": 8,
+    "champions_leagues": 1,
+    "europa_leagues": 1,
+    "community_shields": 7
+  },
+  "rivalry": ["manchester_united"],
+  "facilities": {
+    "training_ground": 10,
+    "youth_academy": 9,
+    "stadium": 9,
+    "medical": 9
+  },
+  "tactics": {
+    "preferred_formation": "4-3-3",
+    "attacking_style": "possession",
+    "defensive_line": "high",
+    "pressing": "high",
+    "tempo": "high"
+  }
+}

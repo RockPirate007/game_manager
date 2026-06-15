@@ -1,0 +1,48 @@
+{
+  "id": "atletico_madrid",
+  "name": "Атлетико Мадрид",
+  "name_en": "Atlético Madrid",
+  "short_name": "ATM",
+  "city": "Мадрид",
+  "stadium": "Сивитас Метрополитано",
+  "stadium_capacity": 70460,
+  "founded": 1903,
+  "colors": {"primary": "#CB3524", "secondary": "#272E61"},
+  "logo": "atletico_madrid.png",
+  "league": "la_liga",
+  "budget": 150000000,
+  "reputation": 88,
+  "style": "defensive",
+  "tendency": "counter",
+  "owner": "Socio (Club-owned)",
+  "chairman": "Enrique Cerezo",
+  "manager": "Diego Simeone",
+  "board_expectations": {
+    "league": "top_three",
+    "cup": "semi_final",
+    "champions_league": "quarter_final",
+    "patience": 95
+  },
+  "history": {
+    "league_titles": 11,
+    "copa_del_rey": 10,
+    "champions_leagues": 0,
+    "europa_leagues": 3,
+    "super_cups": 3,
+    "uefa_super_cups": 3
+  },
+  "rivalry": ["real_madrid"],
+  "facilities": {
+    "training_ground": 9,
+    "youth_academy": 8,
+    "stadium": 9,
+    "medical": 9
+  },
+  "tactics": {
+    "preferred_formation": "3-5-2",
+    "attacking_style": "counter",
+    "defensive_line": "low",
+    "pressing": "medium",
+    "tempo": "medium"
+  }
+}

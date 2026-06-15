@@ -1,0 +1,48 @@
+{
+  "id": "liverpool",
+  "name": "Ливерпуль",
+  "name_en": "Liverpool",
+  "short_name": "LFC",
+  "city": "Ливерпуль",
+  "stadium": "Энфилд",
+  "stadium_capacity": 53394,
+  "founded": 1892,
+  "colors": {"primary": "#C8102E", "secondary": "#FFFFFF"},
+  "logo": "liverpool.png",
+  "league": "premier_league",
+  "budget": 200000000,
+  "reputation": 93,
+  "style": "attacking",
+  "tendency": "gegenpressing",
+  "owner": "Fenway Sports Group",
+  "chairman": "John W. Henry",
+  "manager": "Arne Slot",
+  "board_expectations": {
+    "league": "champion",
+    "cup": "win",
+    "champions_league": "semi_final",
+    "patience": 90
+  },
+  "history": {
+    "league_titles": 19,
+    "fa_cups": 8,
+    "league_cups": 10,
+    "champions_leagues": 6,
+    "europa_leagues": 3,
+    "community_shields": 16
+  },
+  "rivalry": ["manchester_united", "everton"],
+  "facilities": {
+    "training_ground": 9,
+    "youth_academy": 8,
+    "stadium": 9,
+    "medical": 9
+  },
+  "tactics": {
+    "preferred_formation": "4-3-3",
+    "attacking_style": "counter_press",
+    "defensive_line": "high",
+    "pressing": "very_high",
+    "tempo": "very_high"
+  }
+}

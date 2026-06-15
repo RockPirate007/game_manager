@@ -1,0 +1,48 @@
+{
+  "id": "brighton",
+  "name": "Брайтон",
+  "name_en": "Brighton & Hove Albion",
+  "short_name": "BHAFC",
+  "city": "Брайтон",
+  "stadium": "Амэкс",
+  "stadium_capacity": 31876,
+  "founded": 1901,
+  "colors": {"primary": "#0057B8", "secondary": "#FFFFFF"},
+  "logo": "brighton.png",
+  "league": "premier_league",
+  "budget": 80000000,
+  "reputation": 78,
+  "style": "attacking",
+  "tendency": "possession",
+  "owner": "Tony Bloom",
+  "chairman": "Tony Bloom",
+  "manager": "Roberto De Zerbi",
+  "board_expectations": {
+    "league": "top_ten",
+    "cup": "quarter_final",
+    "champions_league": "none",
+    "patience": 80
+  },
+  "history": {
+    "league_titles": 0,
+    "fa_cups": 0,
+    "league_cups": 0,
+    "champions_leagues": 0,
+    "europa_leagues": 0,
+    "community_shields": 0
+  },
+  "rivalry": ["crystal_palace"],
+  "facilities": {
+    "training_ground": 8,
+    "youth_academy": 8,
+    "stadium": 8,
+    "medical": 8
+  },
+  "tactics": {
+    "preferred_formation": "4-2-3-1",
+    "attacking_style": "possession",
+    "defensive_line": "high",
+    "pressing": "high",
+    "tempo": "high"
+  }
+}

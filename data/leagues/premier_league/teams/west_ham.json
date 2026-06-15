@@ -1,0 +1,48 @@
+{
+  "id": "west_ham",
+  "name": "Вест Хэм",
+  "name_en": "West Ham United",
+  "short_name": "WHUFC",
+  "city": "Лондон",
+  "stadium": "Лондон Стадиум",
+  "stadium_capacity": 62500,
+  "founded": 1895,
+  "colors": {"primary": "#7A263A", "secondary": "#1BB1E7"},
+  "logo": "west_ham.png",
+  "league": "premier_league",
+  "budget": 100000000,
+  "reputation": 80,
+  "style": "balanced",
+  "tendency": "direct",
+  "owner": "David Sullivan & David Gold",
+  "chairman": "David Sullivan",
+  "manager": "Julen Lopetegui",
+  "board_expectations": {
+    "league": "top_ten",
+    "cup": "semi_final",
+    "champions_league": "none",
+    "patience": 75
+  },
+  "history": {
+    "league_titles": 0,
+    "fa_cups": 3,
+    "league_cups": 0,
+    "champions_leagues": 0,
+    "europa_leagues": 0,
+    "community_shields": 1
+  },
+  "rivalry": ["tottenham", "chelsea"],
+  "facilities": {
+    "training_ground": 7,
+    "youth_academy": 7,
+    "stadium": 8,
+    "medical": 7
+  },
+  "tactics": {
+    "preferred_formation": "4-2-3-1",
+    "attacking_style": "direct",
+    "defensive_line": "medium",
+    "pressing": "medium",
+    "tempo": "medium"
+  }
+}

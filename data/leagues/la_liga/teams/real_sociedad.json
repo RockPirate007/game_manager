@@ -1,0 +1,48 @@
+{
+  "id": "real_sociedad",
+  "name": "Реал Сосьедад",
+  "name_en": "Real Sociedad",
+  "short_name": "RSO",
+  "city": "Сан-Себастьян",
+  "stadium": "Аноэта",
+  "stadium_capacity": 39500,
+  "founded": 1909,
+  "colors": {"primary": "#003DA5", "secondary": "#FFFFFF"},
+  "logo": "real_sociedad.png",
+  "league": "la_liga",
+  "budget": 60000000,
+  "reputation": 78,
+  "style": "attacking",
+  "tendency": "possession",
+  "owner": "Socio (Club-owned)",
+  "chairman": "Jokin Aperribay",
+  "manager": "Imanol Alguacil",
+  "board_expectations": {
+    "league": "top_six",
+    "cup": "final",
+    "champions_league": "group_stage",
+    "patience": 85
+  },
+  "history": {
+    "league_titles": 2,
+    "copa_del_rey": 3,
+    "champions_leagues": 0,
+    "europa_leagues": 0,
+    "super_cups": 1,
+    "uefa_super_cups": 0
+  },
+  "rivalry": ["athletic_bilbao"],
+  "facilities": {
+    "training_ground": 8,
+    "youth_academy": 9,
+    "stadium": 8,
+    "medical": 8
+  },
+  "tactics": {
+    "preferred_formation": "4-3-3",
+    "attacking_style": "possession",
+    "defensive_line": "medium",
+    "pressing": "high",
+    "tempo": "high"
+  }
+}

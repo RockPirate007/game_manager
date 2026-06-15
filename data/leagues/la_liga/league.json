@@ -1,0 +1,76 @@
+{
+  "id": "la_liga",
+  "name": "Ла Лига",
+  "name_en": "La Liga",
+  "country": "Испания",
+  "country_id": "spain",
+  "flag": "🇪🇸",
+  "tier": 1,
+  "founded": 1929,
+  "teams_count": 20,
+  "matches_per_season": 38,
+  "logo": "la_liga.png",
+  "reputation": 95,
+  "description": "Элитная испанская лига. Техническая игра, тактическая грамотность и превосходная молодёжная школа.",
+  "rules": {
+    "squad_size": {"min": 25, "max": 25},
+    "youth_players": 8,
+    "foreign_players_limit": 0,
+    "homegrown_players": 8,
+    "substitutes": 5,
+    "bench_players": 9
+  },
+  "prize_money": {
+    "champion": 40000000,
+    "second": 35000000,
+    "third": 30000000,
+    "fourth": 25000000,
+    "fifth": 22000000,
+    "sixth": 19000000,
+    "seventh": 16000000,
+    "eighth": 14000000,
+    "ninth": 12000000,
+    "tenth": 10000000,
+    "relegation_1": 8000000,
+    "relegation_2": 6000000,
+    "relegation_3": 4000000
+  },
+  "european_spots": {
+    "champions_league": 4,
+    "europa_league": 2,
+    "conference_league": 1
+  },
+  "relegation_spots": 3,
+  "transfer_windows": [
+    {
+      "name": "Летнее окно",
+      "start": "2024-06-01",
+      "end": "2024-08-31"
+    },
+    {
+      "name": "Зимнее окно",
+      "start": "2025-01-01",
+      "end": "2025-01-31"
+    }
+  ],
+  "season_schedule": {
+    "start_month": 8,
+    "end_month": 5,
+    "winter_break": true,
+    "winter_break_start": "2024-12-23",
+    "winter_break_end": "2025-01-03",
+    "cup_break": true
+  },
+  "stats_tracked": [
+    "goals",
+    "assists",
+    "clean_sheets",
+    "yellow_cards",
+    "red_cards",
+    "tackles",
+    "interceptions",
+    "passes_completed",
+    "shots_on_target",
+    "man_of_the_match"
+  ]
+}

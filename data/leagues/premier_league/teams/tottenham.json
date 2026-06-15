@@ -1,0 +1,48 @@
+{
+  "id": "tottenham",
+  "name": "Тоттенхэм",
+  "name_en": "Tottenham Hotspur",
+  "short_name": "THFC",
+  "city": "Лондон",
+  "stadium": "Тоттенхэм Хотспур",
+  "stadium_capacity": 62850,
+  "founded": 1882,
+  "colors": {"primary": "#132257", "secondary": "#FFFFFF"},
+  "logo": "tottenham.png",
+  "league": "premier_league",
+  "budget": 150000000,
+  "reputation": 87,
+  "style": "attacking",
+  "tendency": "balanced",
+  "owner": "ENIC International",
+  "chairman": "Daniel Levy",
+  "manager": "Ange Postecoglou",
+  "board_expectations": {
+    "league": "top_six",
+    "cup": "quarter_final",
+    "champions_league": "group_stage",
+    "patience": 80
+  },
+  "history": {
+    "league_titles": 2,
+    "fa_cups": 8,
+    "league_cups": 4,
+    "champions_leagues": 0,
+    "europa_leagues": 0,
+    "community_shields": 7
+  },
+  "rivalry": ["arsenal", "chelsea"],
+  "facilities": {
+    "training_ground": 9,
+    "youth_academy": 8,
+    "stadium": 10,
+    "medical": 9
+  },
+  "tactics": {
+    "preferred_formation": "4-3-3",
+    "attacking_style": "balanced",
+    "defensive_line": "high",
+    "pressing": "high",
+    "tempo": "high"
+  }
+}

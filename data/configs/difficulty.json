@@ -1,0 +1,92 @@
+{
+  "difficulty_levels": {
+    "easy": {
+      "name": "Лёгкий",
+      "description": "Идеально для новичков. Проще управлять клубом.",
+      "budget_multiplier": 1.5,
+      "reputation_bonus": 20,
+      "ai_transfer_activity": 0.7,
+      "ai_tactical_adaptability": 0.6,
+      "ai_youth_development": 0.7,
+      "injury_frequency": 0.7,
+      "fan_patience": 120,
+      "board_patience": 120,
+      "player_morale_ease": 1.3,
+      "scouting_accuracy": 1.3,
+      "youth_academy_boost": 1.3,
+      "financial_fair_play_strictness": 0.5,
+      "referee_bias": 1.1,
+      "opponent_strength": 0.8,
+      "match_intensity": 0.85
+    },
+    "normal": {
+      "name": "Нормальный",
+      "description": "Сбалансированный опыт для опытных игроков.",
+      "budget_multiplier": 1.0,
+      "reputation_bonus": 0,
+      "ai_transfer_activity": 1.0,
+      "ai_tactical_adaptability": 1.0,
+      "ai_youth_development": 1.0,
+      "injury_frequency": 1.0,
+      "fan_patience": 100,
+      "board_patience": 100,
+      "player_morale_ease": 1.0,
+      "scouting_accuracy": 1.0,
+      "youth_academy_boost": 1.0,
+      "financial_fair_play_strictness": 1.0,
+      "referee_bias": 1.0,
+      "opponent_strength": 1.0,
+      "match_intensity": 1.0
+    },
+    "hard": {
+      "name": "Сложный",
+      "description": "Для опытных менеджеров. Реалистичная сложность.",
+      "budget_multiplier": 0.7,
+      "reputation_bonus": -10,
+      "ai_transfer_activity": 1.3,
+      "ai_tactical_adaptability": 1.3,
+      "ai_youth_development": 1.2,
+      "injury_frequency": 1.2,
+      "fan_patience": 80,
+      "board_patience": 80,
+      "player_morale_ease": 0.8,
+      "scouting_accuracy": 0.8,
+      "youth_academy_boost": 0.8,
+      "financial_fair_play_strictness": 1.3,
+      "referee_bias": 0.9,
+      "opponent_strength": 1.2,
+      "match_intensity": 1.15
+    },
+    "realistic": {
+      "name": "Реалистичный",
+      "description": "Максимально реалистичная симуляция. Для фанатов реализма.",
+      "budget_multiplier": 0.5,
+      "reputation_bonus": -20,
+      "ai_transfer_activity": 1.5,
+      "ai_tactical_adaptability": 1.5,
+      "ai_youth_development": 1.3,
+      "injury_frequency": 1.3,
+      "fan_patience": 60,
+      "board_patience": 60,
+      "player_morale_ease": 0.6,
+      "scouting_accuracy": 0.6,
+      "youth_academy_boost": 0.6,
+      "financial_fair_play_strictness": 1.5,
+      "referee_bias": 0.85,
+      "opponent_strength": 1.4,
+      "match_intensity": 1.3
+    }
+  },
+  "custom_settings": {
+    "editable_params": [
+      "budget_multiplier",
+      "fan_patience",
+      "board_patience",
+      "injury_frequency",
+      "ai_transfer_activity",
+      "scouting_accuracy"
+    ],
+    "min_value": 0.1,
+    "max_value": 3.0
+  }
+}

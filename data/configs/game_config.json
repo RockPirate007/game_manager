@@ -1,0 +1,115 @@
+{
+  "game_version": "1.0.0",
+  "game_name": "Football Manager",
+  "default_settings": {
+    "language": "ru",
+    "currency": "EUR",
+    "currency_symbol": "€",
+    "simulation_speed": "normal",
+    "auto_save": true,
+    "auto_save_interval": "weekly",
+    "injury_frequency": "realistic",
+    "youth_development": "enabled",
+    "transfer_window_active": true,
+    "loan_market_active": true,
+    "scouting_active": true,
+    "press_conferences": true,
+    "locker_room_talks": true,
+    "player_rotations": true,
+    "fitness_tracking": true,
+    "morale_system": true,
+    "form_system": true,
+    "hidden_attributes": true,
+    "regen_players": true,
+    "regen_frequency": "annual"
+  },
+  "difficulty_presets": {
+    "easy": "difficulty_easy",
+    "normal": "difficulty_normal",
+    "hard": "difficulty_hard"
+  },
+  "starting_options": {
+    "new_manager": {
+      "description": "Начать карьеру с нуля",
+      "starting_reputation": 30,
+      "starting_budget_multiplier": 1.0,
+      "job_offers": ["league_two", "league_one"]
+    },
+    "mid_table_club": {
+      "description": "Возглавить клуб середины таблицы",
+      "starting_reputation": 50,
+      "starting_budget_multiplier": 0.8,
+      "job_offers": ["championship", "premier_league_bottom"]
+    },
+    "top_club": {
+      "description": "Возглавить топ-клуб",
+      "starting_reputation": 70,
+      "starting_budget_multiplier": 0.6,
+      "job_offers": ["premier_league_top", "la_liga_top"]
+    },
+    "legend_return": {
+      "description": "Вернуться как легенда клуба",
+      "starting_reputation": 80,
+      "starting_budget_multiplier": 0.5,
+      "job_offers": ["former_club"]
+    }
+  },
+  "season_structure": {
+    "pre_season": {
+      "duration_weeks": 4,
+      "friendlies": true,
+      "tournaments": true
+    },
+    "league_season": {
+      "matches_per_week": 1,
+      "cup_rounds": true,
+      "international_breaks": true
+    },
+    "post_season": {
+      "awards": true,
+      "retirements": true,
+      "transfers": true
+    }
+  },
+  "transfer_system": {
+    "negotiation_phases": ["interest", "bid", "personal_terms", "medical", "announcement"],
+    "loan_options": ["dry_loan", "loan_to_buy", "loan_with_option"],
+    "free_agents": true,
+    "youth_intake": true,
+    "contract_extensions": true,
+    "release_clauses": true,
+    "sell_on_clauses": true
+  },
+  "match_engine": {
+    "match_duration": 90,
+    "half_time": 15,
+    "injury_time": true,
+    "substitutions": 5,
+    "var": true,
+    "penalty_shootout": true,
+    "extra_time": true,
+    "weather_effects": true,
+    "pitch_conditions": true,
+    "crowd_effects": true
+  },
+  "financial_system": {
+    "revenue_streams": [
+      "broadcasting",
+      "matchday",
+      "commercial",
+      "prize_money",
+      "transfers"
+    ],
+    "expense_categories": [
+      "wages",
+      "transfer_fees",
+      "agent_fees",
+      "training_ground",
+      "youth_academy",
+      "medical"
+    ],
+    "ffp_rules": true,
+    "wage_structure": true,
+    "bonus_system": true
+  }
+}

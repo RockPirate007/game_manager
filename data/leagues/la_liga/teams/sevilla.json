@@ -1,0 +1,48 @@
+{
+  "id": "sevilla",
+  "name": "Севилья",
+  "name_en": "Sevilla FC",
+  "short_name": "SEV",
+  "city": "Севилья",
+  "stadium": "Рамон Санчес Писхуан",
+  "stadium_capacity": 43883,
+  "founded": 1890,
+  "colors": {"primary": "#FFFFFF", "secondary": "#D40D27"},
+  "logo": "sevilla.png",
+  "league": "la_liga",
+  "budget": 70000000,
+  "reputation": 80,
+  "style": "balanced",
+  "tendency": "direct",
+  "owner": "Sevillistas de Nervión",
+  "chairman": "José Castro Carmona",
+  "manager": "García Pimienta",
+  "board_expectations": {
+    "league": "top_six",
+    "cup": "final",
+    "champions_league": "group_stage",
+    "patience": 80
+  },
+  "history": {
+    "league_titles": 1,
+    "copa_del_rey": 5,
+    "champions_leagues": 0,
+    "europa_leagues": 7,
+    "super_cups": 1,
+    "uefa_super_cups": 1
+  },
+  "rivalry": ["real_betis"],
+  "facilities": {
+    "training_ground": 8,
+    "youth_academy": 8,
+    "stadium": 8,
+    "medical": 8
+  },
+  "tactics": {
+    "preferred_formation": "4-3-3",
+    "attacking_style": "balanced",
+    "defensive_line": "medium",
+    "pressing": "high",
+    "tempo": "medium"
+  }
+}

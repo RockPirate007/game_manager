@@ -1,0 +1,48 @@
+{
+  "id": "chelsea",
+  "name": "Челси",
+  "name_en": "Chelsea",
+  "short_name": "CFC",
+  "city": "Лондон",
+  "stadium": "Стэмфорд Бридж",
+  "stadium_capacity": 40343,
+  "founded": 1905,
+  "colors": {"primary": "#034694", "secondary": "#FFFFFF"},
+  "logo": "chelsea.png",
+  "league": "premier_league",
+  "budget": 220000000,
+  "reputation": 90,
+  "style": "balanced",
+  "tendency": "flexible",
+  "owner": "Todd Boehly / Clearlake Capital",
+  "chairman": "Todd Boehly",
+  "manager": "Enzo Maresca",
+  "board_expectations": {
+    "league": "top_four",
+    "cup": "semi_final",
+    "champions_league": "quarter_final",
+    "patience": 75
+  },
+  "history": {
+    "league_titles": 6,
+    "fa_cups": 8,
+    "league_cups": 5,
+    "champions_leagues": 2,
+    "europa_leagues": 2,
+    "community_shields": 4
+  },
+  "rivalry": ["arsenal", "tottenham"],
+  "facilities": {
+    "training_ground": 9,
+    "youth_academy": 9,
+    "stadium": 7,
+    "medical": 9
+  },
+  "tactics": {
+    "preferred_formation": "4-2-3-1",
+    "attacking_style": "balanced",
+    "defensive_line": "medium",
+    "pressing": "high",
+    "tempo": "medium"
+  }
+}

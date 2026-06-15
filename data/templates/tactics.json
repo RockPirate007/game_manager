@@ -1,0 +1,190 @@
+{
+  "formations": [
+    {
+      "id": "4-3-3",
+      "name": "4-3-3",
+      "description": "Атакующая формация с тремя нападающими. Обеспечивает ширину атаки и давление на флангах.",
+      "positions": [
+        {"position": "gk", "x": 50, "y": 90},
+        {"position": "lb", "x": 15, "y": 70},
+        {"position": "cb", "x": 38, "y": 75},
+        {"position": "cb", "x": 62, "y": 75},
+        {"position": "rb", "x": 85, "y": 70},
+        {"position": "cm", "x": 30, "y": 50},
+        {"position": "cm", "x": 50, "y": 45},
+        {"position": "cm", "x": 70, "y": 50},
+        {"position": "lw", "x": 15, "y": 30},
+        {"position": "st", "x": 50, "y": 25},
+        {"position": "rw", "x": 85, "y": 30}
+      ],
+      "display_layout": [
+        "          LW      ST      RW",
+        "       CM      CM      CM",
+        "    LB    CB      CB    RB",
+        "              GK"
+      ],
+      "strengths": ["Ширина атаки", "Давление на флангах", "Быстрые контратаки"],
+      "weaknesses": ["Уязвимость в центре поля", "Высокая линия обороны"]
+    },
+    {
+      "id": "4-4-2",
+      "name": "4-4-2",
+      "description": "Классическая формация с двумя линиями по четыре игрока и двумя нападающими.",
+      "positions": [
+        {"position": "gk", "x": 50, "y": 90},
+        {"position": "lb", "x": 15, "y": 70},
+        {"position": "cb", "x": 38, "y": 75},
+        {"position": "cb", "x": 62, "y": 75},
+        {"position": "rb", "x": 85, "y": 70},
+        {"position": "lm", "x": 15, "y": 45},
+        {"position": "cm", "x": 38, "y": 50},
+        {"position": "cm", "x": 62, "y": 50},
+        {"position": "rm", "x": 85, "y": 45},
+        {"position": "st", "x": 38, "y": 25},
+        {"position": "st", "x": 62, "y": 25}
+      ],
+      "display_layout": [
+        "          LM      RM",
+        "        CM      CM",
+        "     ST            ST",
+        "   LB  CB    CB  RB",
+        "              GK"
+      ],
+      "strengths": ["Баланс обороны и атаки", "Простота исполнения", "Два нападающих"],
+      "weaknesses": ["Мало игроков в центре", "Зависимость от флангов"]
+    },
+    {
+      "id": "4-2-3-1",
+      "name": "4-2-3-1",
+      "description": "Современная формация с двумя опорниками и атакующим полузащитником за нападающим.",
+      "positions": [
+        {"position": "gk", "x": 50, "y": 90},
+        {"position": "lb", "x": 15, "y": 70},
+        {"position": "cb", "x": 38, "y": 75},
+        {"position": "cb", "x": 62, "y": 75},
+        {"position": "rb", "x": 85, "y": 70},
+        {"position": "dm", "x": 38, "y": 55},
+        {"position": "dm", "x": 62, "y": 55},
+        {"position": "lw", "x": 15, "y": 35},
+        {"position": "am", "x": 50, "y": 35},
+        {"position": "rw", "x": 85, "y": 35},
+        {"position": "st", "x": 50, "y": 20}
+      ],
+      "display_layout": [
+        "          LW      AM      RW",
+        "         DM      DM",
+        "      ST",
+        "   LB  CB    CB  RB",
+        "              GK"
+      ],
+      "strengths": ["Крепкая оборона", "Гибкость в атаке", "Контроль центра"],
+      "weaknesses": ["Зависимость от AM", "Мало игроков на флангах"]
+    },
+    {
+      "id": "3-5-2",
+      "name": "3-5-2",
+      "description": "Формация с тремя центральными защитниками и пятью полузащитниками.",
+      "positions": [
+        {"position": "gk", "x": 50, "y": 90},
+        {"position": "cb", "x": 25, "y": 75},
+        {"position": "cb", "x": 50, "y": 78},
+        {"position": "cb", "x": 75, "y": 75},
+        {"position": "lm", "x": 10, "y": 50},
+        {"position": "cm", "x": 35, "y": 50},
+        {"position": "dm", "x": 50, "y": 55},
+        {"position": "cm", "x": 65, "y": 50},
+        {"position": "rm", "x": 90, "y": 50},
+        {"position": "st", "x": 40, "y": 25},
+        {"position": "st", "x": 60, "y": 25}
+      ],
+      "display_layout": [
+        "   LM              RM",
+        "      CM    DM    CM",
+        "        ST      ST",
+        "   CB    CB    CB",
+        "              GK"
+      ],
+      "strengths": ["Крепкая центральная оборона", "Давление на флангах", "Два нападающих"],
+      "weaknesses": ["Уязвимость на флангах в обороне", "Сложность исполнения"]
+    },
+    {
+      "id": "5-3-2",
+      "name": "5-3-2",
+      "description": "Оборонительная формация с пятью защитниками и тремя полузащитниками.",
+      "positions": [
+        {"position": "gk", "x": 50, "y": 90},
+        {"position": "lb", "x": 10, "y": 65},
+        {"position": "cb", "x": 30, "y": 75},
+        {"position": "cb", "x": 50, "y": 78},
+        {"position": "cb", "x": 70, "y": 75},
+        {"position": "rb", "x": 90, "y": 65},
+        {"position": "cm", "x": 35, "y": 50},
+        {"position": "cm", "x": 50, "y": 45},
+        {"position": "cm", "x": 65, "y": 50},
+        {"position": "st", "x": 40, "y": 25},
+        {"position": "st", "x": 60, "y": 25}
+      ],
+      "display_layout": [
+        "         CM    CM    CM",
+        "        ST      ST",
+        "   LB  CB  CB  CB  RB",
+        "              GK"
+      ],
+      "strengths": ["Сверхнадёжная оборона", "Контратаки", "Давление на флангах"],
+      "weaknesses": ["Мало игроков в атаке", "Сложно создавать моменты"]
+    },
+    {
+      "id": "4-5-1",
+      "name": "4-5-1",
+      "description": "Оборонительная формация с одним нападающим и пятью полузащитниками.",
+      "positions": [
+        {"position": "gk", "x": 50, "y": 90},
+        {"position": "lb", "x": 15, "y": 70},
+        {"position": "cb", "x": 38, "y": 75},
+        {"position": "cb", "x": 62, "y": 75},
+        {"position": "rb", "x": 85, "y": 70},
+        {"position": "lm", "x": 15, "y": 45},
+        {"position": "cm", "x": 35, "y": 48},
+        {"position": "dm", "x": 50, "y": 52},
+        {"position": "cm", "x": 65, "y": 48},
+        {"position": "rm", "x": 85, "y": 45},
+        {"position": "st", "x": 50, "y": 22}
+      ],
+      "display_layout": [
+        "   LM    CM    DM    CM    RM",
+        "                 ST",
+        "   LB  CB    CB  RB",
+        "              GK"
+      ],
+      "strengths": ["Контроль мяча", "Крепкая оборона", "Блокировка центра"],
+      "weaknesses": ["Мало атакующей угрозы", "Одинокий нападающий"]
+    },
+    {
+      "id": "3-4-3",
+      "name": "3-4-3",
+      "description": "Атакующая формация с тремя защитниками, четырьмя полузащитниками и тремя нападающими.",
+      "positions": [
+        {"position": "gk", "x": 50, "y": 90},
+        {"position": "cb", "x": 25, "y": 75},
+        {"position": "cb", "x": 50, "y": 78},
+        {"position": "cb", "x": 75, "y": 75},
+        {"position": "lm", "x": 10, "y": 50},
+        {"position": "cm", "x": 38, "y": 50},
+        {"position": "cm", "x": 62, "y": 50},
+        {"position": "rm", "x": 90, "y": 50},
+        {"position": "lw", "x": 20, "y": 28},
+        {"position": "st", "x": 50, "y": 22},
+        {"position": "rw", "x": 80, "y": 28}
+      ],
+      "display_layout": [
+        "   LM              RM",
+        "      CM    CM",
+        "   LW      ST      RW",
+        "   CB    CB    CB",
+        "              GK"
+      ],
+      "strengths": ["Мощная атака", "Ширина поля", "Давление"],
+      "weaknesses": ["Уязвимость в обороне", "Высокий риск"]
+    }
+  ]
+}

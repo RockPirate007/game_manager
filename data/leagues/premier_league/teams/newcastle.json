@@ -1,0 +1,48 @@
+{
+  "id": "newcastle",
+  "name": "Ньюкасл",
+  "name_en": "Newcastle United",
+  "short_name": "NUFC",
+  "city": "Ньюкасл",
+  "stadium": "Сент-Джеймс Парк",
+  "stadium_capacity": 52305,
+  "founded": 1892,
+  "colors": {"primary": "#241F20", "secondary": "#FFFFFF"},
+  "logo": "newcastle.png",
+  "league": "premier_league",
+  "budget": 150000000,
+  "reputation": 85,
+  "style": "balanced",
+  "tendency": "direct",
+  "owner": "PIF (Public Investment Fund)",
+  "chairman": "Yasir Al-Rumayyan",
+  "manager": "Eddie Howe",
+  "board_expectations": {
+    "league": "top_six",
+    "cup": "semi_final",
+    "champions_league": "quarter_final",
+    "patience": 85
+  },
+  "history": {
+    "league_titles": 4,
+    "fa_cups": 6,
+    "league_cups": 0,
+    "champions_leagues": 0,
+    "europa_leagues": 0,
+    "community_shields": 1
+  },
+  "rivalry": ["sunderland"],
+  "facilities": {
+    "training_ground": 8,
+    "youth_academy": 7,
+    "stadium": 9,
+    "medical": 8
+  },
+  "tactics": {
+    "preferred_formation": "4-3-3",
+    "attacking_style": "balanced",
+    "defensive_line": "medium",
+    "pressing": "high",
+    "tempo": "high"
+  }
+}

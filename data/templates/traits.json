@@ -1,0 +1,160 @@
+{
+  "traits": [
+    {
+      "id": "clinical_finisher",
+      "name": "Хладнокровный бомбардир",
+      "description": "Повышает точность ударов в ворота в сложных ситуациях",
+      "stat_boosts": {
+        "finishing": 5,
+        "composure": 3
+      },
+      "category": "attacking"
+    },
+    {
+      "id": "aerial_threat",
+      "name": "Угроза в воздухе",
+      "description": "Превосходная игра головой в атаке и обороне",
+      "stat_boosts": {
+        "heading": 7,
+        "jumping": 5,
+        "strength": 2
+      },
+      "category": "attacking"
+    },
+    {
+      "id": "fast",
+      "name": "Скоростной",
+      "description": "Исключительная скорость и ускорение",
+      "stat_boosts": {
+        "pace": 5,
+        "acceleration": 5
+      },
+      "category": "physical"
+    },
+    {
+      "id": "playmaker",
+      "name": "Плеймейкер",
+      "description": "Видит поле и распределяет мячи с высокой точностью",
+      "stat_boosts": {
+        "vision": 6,
+        "passing": 5,
+        "creativity": 5
+      },
+      "category": "technical"
+    },
+    {
+      "id": "ball_winner",
+      "name": "Мячоотборщик",
+      "description": "Мастер отбора мяча и перехвата передач",
+      "stat_boosts": {
+        "tackling": 6,
+        "interceptions": 5,
+        "positioning": 3
+      },
+      "category": "defensive"
+    },
+    {
+      "id": "free_kick_specialist",
+      "name": "Специалист по штрафным",
+      "description": "Превосходно бьёт штрафные удары",
+      "stat_boosts": {
+        "free_kick_accuracy": 8,
+        "shooting": 3
+      },
+      "category": "technical"
+    },
+    {
+      "id": "leader",
+      "name": "Лидер",
+      "description": "Вдохновляет команду, повышает мораль",
+      "stat_boosts": {
+        "leadership": 8,
+        "composure": 4
+      },
+      "category": "mental"
+    },
+    {
+      "id": "long_shot_taker",
+      "name": "Мастер дальних ударов",
+      "description": "Опасно бьёт издалека",
+      "stat_boosts": {
+        "long_shots": 6,
+        "shooting": 4
+      },
+      "category": "technical"
+    },
+    {
+      "id": "dribbler",
+      "name": "Дриблёр",
+      "description": "Мастер обводки, проходит один на один",
+      "stat_boosts": {
+        "dribbling": 6,
+        "ball_control": 5,
+        "agility": 3
+      },
+      "category": "technical"
+    },
+    {
+      "id": "penalty_specialist",
+      "name": "Специалист по пенальти",
+      "description": "Надёжно бьёт пенальти",
+      "stat_boosts": {
+        "penalty_kick": 7,
+        "composure": 3
+      },
+      "category": "technical"
+    },
+    {
+      "id": "tough_tackler",
+      "name": "Жёсткий в отборе",
+      "description": "Агрессивно и эффективно отбирает мяч",
+      "stat_boosts": {
+        "tackling": 5,
+        "strength": 4,
+        "aggression": 3
+      },
+      "category": "defensive"
+    },
+    {
+      "id": "crosser",
+      "name": "Мастер навесов",
+      "description": "Точно навешивает мяч в штрафную",
+      "stat_boosts": {
+        "crossing": 7,
+        "vision": 3
+      },
+      "category": "technical"
+    },
+    {
+      "id": "sweeper",
+      "name": "Свипер",
+      "description": "Играет позиционно за линией обороны",
+      "stat_boosts": {
+        "positioning": 6,
+        "interceptions": 5,
+        "composure": 4
+      },
+      "category": "defensive"
+    },
+    {
+      "id": "shot_stopper",
+      "name": "Стена",
+      "description": "Отражает сложные удары",
+      "stat_boosts": {
+        "reflexes": 6,
+        "diving": 5
+      },
+      "category": "goalkeeping"
+    },
+    {
+      "id": "one_on_one",
+      "name": "Мастер один на один",
+      "description": "Уверенно действует вратарём при выходах один на один",
+      "stat_boosts": {
+        "one_on_saves": 5,
+        "positioning": 4
+      },
+      "category": "goalkeeping"
+    }
+  ]
+}

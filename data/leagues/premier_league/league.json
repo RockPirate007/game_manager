@@ -1,0 +1,74 @@
+{
+  "id": "premier_league",
+  "name": "Премьер-лига",
+  "name_en": "Premier League",
+  "country": "Англия",
+  "country_id": "england",
+  "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+  "tier": 1,
+  "founded": 1992,
+  "teams_count": 20,
+  "matches_per_season": 38,
+  "logo": "premier_league.png",
+  "reputation": 100,
+  "description": "Сильнейшая футбольная лига мира. Высокий темп, физическая игра и тактическое разнообразие.",
+  "rules": {
+    "squad_size": {"min": 25, "max": 25},
+    "youth_players": 8,
+    "foreign_players_limit": 0,
+    "homegrown_players": 8,
+    "substitutes": 5,
+    "bench_players": 9
+  },
+  "prize_money": {
+    "champion": 50000000,
+    "second": 45000000,
+    "third": 40000000,
+    "fourth": 35000000,
+    "fifth": 30000000,
+    "sixth": 25000000,
+    "seventh": 20000000,
+    "eighth": 18000000,
+    "ninth": 16000000,
+    "tenth": 14000000,
+    "relegation_1": 12000000,
+    "relegation_2": 10000000,
+    "relegation_3": 8000000
+  },
+  "european_spots": {
+    "champions_league": 4,
+    "europa_league": 2,
+    "conference_league": 1
+  },
+  "relegation_spots": 3,
+  "transfer_windows": [
+    {
+      "name": "Летнее окно",
+      "start": "2024-06-14",
+      "end": "2024-09-02"
+    },
+    {
+      "name": "Зимнее окно",
+      "start": "2025-01-01",
+      "end": "2025-01-31"
+    }
+  ],
+  "season_schedule": {
+    "start_month": 8,
+    "end_month": 5,
+    "winter_break": false,
+    "cup_break": true
+  },
+  "stats_tracked": [
+    "goals",
+    "assists",
+    "clean_sheets",
+    "yellow_cards",
+    "red_cards",
+    "tackles",
+    "interceptions",
+    "passes_completed",
+    "shots_on_target",
+    "man_of_the_match"
+  ]
+}

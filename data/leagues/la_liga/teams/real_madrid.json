@@ -1,0 +1,48 @@
+{
+  "id": "real_madrid",
+  "name": "Реал Мадрид",
+  "name_en": "Real Madrid",
+  "short_name": "RMA",
+  "city": "Мадрид",
+  "stadium": "Сантьяго Бернабеу",
+  "stadium_capacity": 83186,
+  "founded": 1902,
+  "colors": {"primary": "#FFFFFF", "secondary": "#00529F"},
+  "logo": "real_madrid.png",
+  "league": "la_liga",
+  "budget": 300000000,
+  "reputation": 99,
+  "style": "attacking",
+  "tendency": "balanced",
+  "owner": "Socio (Club-owned)",
+  "chairman": "Florentino Pérez",
+  "manager": "Carlo Ancelotti",
+  "board_expectations": {
+    "league": "champion",
+    "cup": "win",
+    "champions_league": "win",
+    "patience": 90
+  },
+  "history": {
+    "league_titles": 36,
+    "copa_del_rey": 20,
+    "champions_leagues": 15,
+    "europa_leagues": 0,
+    "super_cups": 13,
+    "uefa_super_cups": 6
+  },
+  "rivalry": ["barcelona"],
+  "facilities": {
+    "training_ground": 10,
+    "youth_academy": 10,
+    "stadium": 10,
+    "medical": 10
+  },
+  "tactics": {
+    "preferred_formation": "4-3-3",
+    "attacking_style": "balanced",
+    "defensive_line": "medium",
+    "pressing": "medium",
+    "tempo": "medium"
+  }
+}

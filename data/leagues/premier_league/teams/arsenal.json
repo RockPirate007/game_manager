@@ -1,0 +1,48 @@
+{
+  "id": "arsenal",
+  "name": "Арсенал",
+  "name_en": "Arsenal",
+  "short_name": "AFC",
+  "city": "Лондон",
+  "stadium": "Эмирейтс",
+  "stadium_capacity": 60260,
+  "founded": 1886,
+  "colors": {"primary": "#EF0107", "secondary": "#FFFFFF"},
+  "logo": "arsenal.png",
+  "league": "premier_league",
+  "budget": 200000000,
+  "reputation": 92,
+  "style": "attacking",
+  "tendency": "balanced",
+  "owner": "Kroenke Sports & Entertainment",
+  "chairman": "Stan Kroenke",
+  "manager": "Mikel Arteta",
+  "board_expectations": {
+    "league": "top_four",
+    "cup": "semi_final",
+    "champions_league": "quarter_final",
+    "patience": 85
+  },
+  "history": {
+    "league_titles": 13,
+    "fa_cups": 14,
+    "league_cups": 2,
+    "champions_leagues": 0,
+    "europa_leagues": 0,
+    "community_shields": 17
+  },
+  "rivalry": ["tottenham"],
+  "facilities": {
+    "training_ground": 9,
+    "youth_academy": 9,
+    "stadium": 9,
+    "medical": 9
+  },
+  "tactics": {
+    "preferred_formation": "4-3-3",
+    "attacking_style": "balanced",
+    "defensive_line": "high",
+    "pressing": "high",
+    "tempo": "high"
+  }
+}
